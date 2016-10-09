@@ -13,9 +13,9 @@ public class quantity {
         String[] strings = s2.split(",\\s?");
 
         if (strings.length > 4 && checkIsOnlyLetters(strings)) { // определяем больше ли 5 слов в строке
-            System.out.println("Validation for quantity" + s2 + "passed");
+            System.out.println(" Validation for quantity" + s2 + "passed");
         } else {
-            System.out.println("Validation for quantity" + s2 + " not passed");
+            System.out.println(" Validation for quantity" + s2 + " not passed");
         }
     }
     public static boolean checkIsOnlyLetters(String[] strings){ // метод для в котором программа убеждается что строка состоит из буквенных символов
